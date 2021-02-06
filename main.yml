@@ -5,15 +5,15 @@
   vars:
     apache_create_vhosts: false
     apache_remove_default_vhost: true
-    certbot_admin_email: "admin@exmaple.com"
+    certbot_admin_email: "yildiztasmusa@gmail.com"
     certbot_create_if_missing: true
     certbot_create_standalone_stop_services:
     - httpd
     certbot_certs:
     - domains:
-      - "server.exmaple.com"
-    apache_server_name: "server.exmaple.com"
-    apache_default_admin_email: "admin@exmaple.com"
+      - "jenkins.devopslearn.com"
+    apache_server_name: "jenkins.devopslearn.com"
+    apache_default_admin_email: "yildiztasmusa@gmail.com"
     apache_copy_ssl_files: false
     apache_ssl_cert_file_location: "/etc/letsencrypt/live/{{ apache_server_name }}/fullchain.pem"
     apache_ssl_cert_key_location: "/etc/letsencrypt/live/{{ apache_server_name }}/privkey.pem"
